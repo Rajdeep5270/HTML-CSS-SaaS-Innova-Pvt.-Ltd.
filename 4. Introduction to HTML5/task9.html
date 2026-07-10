@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>HTML5 Semantic Tags</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        header,
+        header nav ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            color: white;
+        }
+
+        header nav ul li {
+            margin: 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header style="background-color: gray; padding: 20px 0;">
+        <h2>Blog layout</h2>
+
+        <nav>
+            <ul>
+                <li><a href="#tiger" style="color: white;">Tiger</a></li>
+                <li><a href="#lion" style="color: white;">Lion</a></li>
+                <li><a href="#leopard" style="color: white;">Leopard</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <!-- blog 1  -->
+            <div id="tiger" style=" display: flex; padding: 30px 0;">
+                <div
+                    style="width: 70%; display: flex; flex-direction: column; justify-content: center; border: 1px solid black; margin: 0 10px; border-radius: 10px;">
+                    <h2 style="text-align: center;">Tiger</h2>
+
+                    <article style="font-size: 18px; padding: 20px 30px;">
+                        Throughout the tiger's range, it inhabits mainly forests, from coniferous and temperate
+                        broadleaf
+                        and mixed forests in the Russian Far East and Northeast China to tropical and subtropical moist
+                        broadleaf forests on the Indian subcontinent and Southeast Asia. The tiger is an apex predator
+                        and
+                        preys mainly on hooved mammals, which it takes by ambush. It lives a mostly solitary life and
+                        occupies home ranges, defending these from individuals of the same sex. The range of a male
+                        tiger
+                        overlaps with that of multiple females with whom he mates. Females give birth to usually two or
+                        three cubs that stay with their mother for about two years. When becoming independent, they
+                        leave
+                        their mother's home range and establish their own.
+                    </article>
+                </div>
+
+                <aside style="width: 30%; float: right;">
+                    <h2 style="text-align: center; padding: 20px 0;">Tiger Image</h2>
+                    <img style="border-radius: 20px;"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7zDMYnGheNT1l7pEW3R5N3Uf4--yCjRprCG9W5WQ58g&s=10"
+                        alt="">
+                </aside>
+            </div>
+
+            <!-- blog 2 -->
+            <div id="lion" style=" display: flex; padding: 30px 0;">
+                <aside style="width: 30%; display: flex; flex-direction: column; align-items: center;">
+                    <h2 style="text-align: center; padding: 20px 0;">Lion Image</h2>
+                    <img style="border-radius: 20px;"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Okonjima_Lioness.jpg/250px-Okonjima_Lioness.jpg"
+                        alt="">
+                </aside>
+                <div
+                    style="width: 70%; display: flex; flex-direction: column; justify-content: center; border: 1px solid black; margin: 0 10px; border-radius: 10px;">
+                    <h2 style="text-align: center;">Lion</h2>
+
+                    <article style="font-size: 18px; padding: 20px 30px;">
+                        The lion inhabits grasslands, savannahs, and shrublands. It is an apex and keystone predator,
+                        preying mostly on medium-sized and large hooved mammals. It is usually more diurnal than other
+                        wild cats, but when persecuted, it adapts to being active at night and at twilight. It is a
+                        social species, forming groups called prides. A lion pride consists of related females and cubs,
+                        and a few or one adult male who is unrelated to the females. Groups of female lions usually hunt
+                        together. Adult males often compete to keep or gain their membership in the pride.
+                    </article>
+                </div>
+
+
+            </div>
+
+            <!-- blog 3  -->
+            <div id="leopard" style=" display: flex; padding: 30px 0;">
+                <div
+                    style="width: 70%; display: flex; flex-direction: column; justify-content: center; border: 1px solid black; margin: 0 10px; border-radius: 10px;">
+                    <h2 style="text-align: center;">Leopard</h2>
+
+                    <article style="font-size: 18px; padding: 20px 30px;">
+                        The leopard was first described in 1758, and several subspecies were proposed in the 19th and
+                        20th centuries. Today, eight subspecies are recognised in its wide range in Africa and Asia. It
+                        initially evolved in Africa during the Early Pleistocene, before migrating into Eurasia around
+                        the Early–Middle Pleistocene transition. Leopards were formerly present across Europe, but
+                        became extinct in the region at around the end of the Late Pleistocene-early Holocene.
+                    </article>
+                </div>
+
+                <aside style="width: 30%; float: right;">
+                    <h2 style="text-align: center; padding: 20px 0;">Leopard Image</h2>
+                    <img style="border-radius: 20px;" height="365px"
+                        src="https://i.natgeofe.com/k/cd962d91-1791-42b2-a25b-7d56a6b23811/snow-leopard-cub_3x2.jpg"
+                        alt="">
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p style="text-align: center; padding: 20px 0;">&copy; 2026 Rajdeep. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
