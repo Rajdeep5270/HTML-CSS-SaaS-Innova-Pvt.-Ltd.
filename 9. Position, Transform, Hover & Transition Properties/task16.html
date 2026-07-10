@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Positioning Elements</title>
+
+    <style>
+        .box1 {
+            height: 100px;
+            width: 100px;
+            background-color: black;
+        }
+
+        .box2 {
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            position: relative;
+            top: 0;
+            left: 20%;
+        }
+
+        .parent-box {
+            position: relative;
+            height: 500px;
+            width: 500px;
+            background-color: aqua;
+        }
+
+        .box3 {
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .box4 {
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            position: fixed;
+            top: 0;
+            right: 0;
+        }
+
+        .sticky-element {
+            height: 100px;
+            overflow: scroll;
+            width: 40%;
+            position: relative;
+        }
+
+        .box5 {
+            background-color: black;
+            position: sticky;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <main>
+        <section class="static-element">
+            <h2>Static Element</h2>
+            <div class="box1"></div>
+        </section>
+
+        <section class="relative-element">
+            <!-- in relative we can change the position of element to anywhere  -->
+            <h2>Relative Element</h2>
+            <div class="box2"></div>
+        </section>
+
+        <section class="absolute-element">
+            <h2>Absolute Element</h2>
+            <!-- Absolute positioning is relative to the nearest positioned ancestor. -->
+            <!-- If no positioned ancestor exists, it is positioned relative to the viewport. -->
+            <div class="parent-box">
+                <div class="box3"></div>
+
+            </div>
+        </section>
+
+        <section class="fixed-element">
+            <h2>Fixed Element</h2>
+            <div class="box4"></div>
+        </section>
+
+        <section class="sticky-element">
+            <h2>Sticky Element</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus voluptatibus, perferendis rem sit at
+                hic nihil ratione quod nostrum quia illo consequatur maiores sint facere beatae optio! Quo iusto maiores
+                aliquam, est officiis doloribus? Nemo dolor nostrum atque voluptatem dignissimos libero doloremque,
+                maxime voluptas veniam itaque ut accusamus hic fugiat optio excepturi in! Laudantium quasi explicabo
+                veritatis similique placeat. Cumque mollitia deleniti magnam consectetur, neque dolorem consequatur
+                nihil sint dolore facere cum atque commodi id error? Veritatis nesciunt iusto, ratione nulla amet libero
+                ipsam dicta, modi incidunt fugiat soluta explicabo, corrupti eius id obcaecati similique aliquid iure
+                voluptatibus culpa. Ducimus id itaque repellat quibusdam necessitatibus numquam ipsam maiores. Culpa
+                excepturi ullam ducimus illum dolorum quasi ipsum hic sapiente id aperiam, odio unde eaque corporis
+                laboriosam. Reiciendis tempora laboriosam ducimus autem, accusantium corrupti doloremque assumenda
+                voluptatem recusandae eos qui repudiandae labore
+            <div class="box5"><strong style="background-color: green;">Lorem ipsum dolor sit amet.</strong></div>
+            facilis laborum eum alias veniam
+            debitis tempore porro
+            amet doloribus omnis! Quia neque quas quasi dolorem enim? Possimus molestias laudantium ex atque nostrum
+            facilis perspiciatis repudiandae molestiae nobis quis, cum dignissimos nisi enim quisquam voluptatem
+            praesentium sit illo expedita tempore deleniti assumenda debitis iusto vero! Animi tempore sequi, labore
+            nobis debitis blanditiis quo delectus non, officiis praesentium voluptates. Saepe illum eligendi
+            repudiandae magnam expedita beatae delectus at, cum ipsa voluptatem obcaecati mollitia excepturi dolores
+            asperiores error dolorum fuga nobis debitis itaque, voluptate quasi. Exercitationem ullam consequatur
+            deserunt, omnis blanditiis nihil, consectetur voluptate alias enim recusandae delectus similique minima.
+            Iure odit aut, quam et aliquid impedit, culpa dolorum incidunt sit iusto reiciendis cupiditate
+            repellendus. Ex adipisci excepturi nam impedit repudiandae fugiat maiores, vel corporis reiciendis quam
+            praesentium vero enim, placeat blanditiis veniam tenetur perspiciatis? Laborum magnam fugit officia
+            sequi, dolorum harum deserunt libero qui dignissimos quia eaque eos illo quibusdam quam, natus
+            voluptates. Accusamus enim deserunt porro, veritatis neque minima numquam, quas facere rem repellendus
+            hic assumenda? Quaerat provident atque perferendis dolorum velit, ipsum voluptatem reprehenderit minus
+            corporis maiores dolores et quos temporibus distinctio veniam fuga sapiente illo delectus? Molestiae,
+            repudiandae veritatis voluptatem beatae tempore accusantium deleniti non, nesciunt dicta soluta
+            perferendis laborum deserunt vel recusandae harum cum consequatur perspiciatis enim.</p>
+        </section>
+    </main>
+
+</body>
+
+</html>
