@@ -38,6 +38,9 @@ To preview a task, open the file in your browser (double-click) or use your edit
 - 📦 [6. Box Model & Box Properties/task12.html](6.%20Box%20Model%20%26%20Box%20Properties/task12.html) — `task12.html`
 - 🖼️ [7. Background Properties/task13.html](7.%20Background%20Properties/task13.html) — `task13.html`
 - 🖼️ [7. Background Properties/task14.html](7.%20Background%20Properties/task14.html) — `task14.html`
+- 🧭 [8. Display & Float Properties/task15.html](8.%20Display%20%26%20Float%20Properties/task15.html) — `task15.html`
+- ⚙️ [9. Position, Transform, Hover & Transition Properties/task16.html](9.%20Position,%20Transform,%20Hover%20%26%20Transition%20Properties/task16.html) — `task16.html`
+- ⚙️ [9. Position, Transform, Hover & Transition Properties/task17.html](9.%20Position,%20Transform,%20Hover%20%26%20Transition%20Properties/task17.html) — `task17.html`
 
 ## ▶️ How to Use
 
