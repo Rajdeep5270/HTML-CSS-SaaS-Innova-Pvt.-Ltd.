@@ -37,6 +37,7 @@ To preview a task, open the file in your browser (double-click) or use your edit
 - 🎨 [5. Introduction to CSS & Text Properties/task11.html](5.%20Introduction%20to%20CSS%20%26%20Text%20Properties/task11.html) — `task11.html`
 - 📦 [6. Box Model & Box Properties/task12.html](6.%20Box%20Model%20%26%20Box%20Properties/task12.html) — `task12.html`
 - 🖼️ [7. Background Properties/task13.html](7.%20Background%20Properties/task13.html) — `task13.html`
+- 🖼️ [7. Background Properties/task14.html](7.%20Background%20Properties/task14.html) — `task14.html`
 
 ## ▶️ How to Use
 
