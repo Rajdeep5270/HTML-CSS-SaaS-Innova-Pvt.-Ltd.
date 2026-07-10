@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applying CSS</title>
+
+    <style>
+        .inline-css h2 {
+            color: bisque;
+        }
+
+        .inline-css h3 {
+            color: brown;
+        }
+
+        .inline-css h4 {
+            color: cadetblue;
+        }
+    </style>
+
+    <link rel="stylesheet" href="/task10.css" type="text/css">
+</head>
+
+<body>
+
+    <header></header>
+
+    <main>
+        <div>
+            <h1>This all text designed using inline css.</h1>
+            <h2 style="color: bisque;">This is a big heading.</h2>
+            <h3 style="color: brown;">This is smaller than above one.</h3>
+            <h4 style="color: cadetblue;">This is smaller than all.</h4>
+        </div>
+
+        <div class="inline-css">
+            <h1>This text designed using internal css.</h1>
+            <h2>This is a big heading.</h2>
+            <h3>This is smaller than above one.</h3>
+            <h4>This is smaller than all.</h4>
+        </div>
+
+        <div class="external-css">
+            <h1>This text designed using external css.</h1>
+            <h2>This is a big heading.</h2>
+            <h3>This is smaller than above one.</h3>
+            <h4>This is smaller than all.</h4>
+        </div>
+    </main>
+
+    <footer></footer>
+
+</body>
+
+</html>
