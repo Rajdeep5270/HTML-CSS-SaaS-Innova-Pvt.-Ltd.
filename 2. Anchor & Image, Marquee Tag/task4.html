@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyper Links & Images</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        img {
+            display: block;
+            max-width: 100%;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-evenly;
+            background-color: #0A192F;
+            padding: 10px 0;
+        }
+
+        header nav ul {
+            display: flex;
+        }
+
+        header nav ul li a,
+        header h2,
+        header a {
+            color: #FFFFFF;
+        }
+
+        .online-image h2,
+        .offline-image h2 {
+            margin: 10px 0;
+        }
+
+        .py {
+            padding: 100px 0;
+        }
+
+        button {
+            padding: 7px 20px;
+            background-color: #FFFFFF;
+            color: #0A192F;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <h2 style="font-size: 30px;">Logo</h2>
+
+        <nav style="display: flex; align-items: center;">
+            <ul>
+                <li style="margin: 0 10px; font-size: 18px;;"><a target="_blank"
+                        href="https://www.google.com/">Google</a></li>
+                <li style="margin: 0 10px; font-size: 18px;;"><a target="_blank"
+                        href="https://www.amazon.in/">Amazon</a>
+                </li>
+                <li style="margin: 0 10px; font-size: 18px;;"><a target="_blank"
+                        href="https://www.flipkart.com/">Flipkart</a></li>
+                <li style="margin: 0 10px; font-size: 18px;;"><a target="_blank"
+                        href="https://www.w3schools.com/">W3School</a></li>
+            </ul>
+        </nav>
+s
+        <div>
+            <a href="#onImg"><button>Online</button></a>
+            <a href="#offImg"><button>Offline</button></a>
+            <a href="#foot"><button>Footer</button></a>
+        </div>
+    </header>
+
+    <main>
+        <section id="onImg" class="online-image py">
+            <center>
+                <h2>Online Image</h2>
+                <img height="500px"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDe-s2vviqUwsmTSYmkW1XkI9iwN3cVpVanaPSgTCKXg&s=10"
+                    alt="">
+            </center>
+        </section>
+
+        <section id="offImg" class="offline-image py">
+            <center>
+                <h2>Offline Image</h2>
+                <img height="500px" src="./png-fantasy-flower-neon-art-illustration_53876-607319.jpg" alt="">
+            </center>
+        </section>
+    </main>
+
+    <footer id="foot">
+        <p style="text-align: center; padding: 10px 0; background-color: #0A192F; color: #FFFFFF;">Created By <a
+                target="_blank" href="https://rajdeep-codefolio.vercel.app/" style="color: blanchedalmond;">Rajdeep
+                Shekhawat.</a>
+        </p>
+    </footer>
+</body>
+
+</html>
