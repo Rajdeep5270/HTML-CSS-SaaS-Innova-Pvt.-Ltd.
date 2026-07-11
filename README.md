@@ -54,6 +54,10 @@ These small exercises cover the core building blocks of web pages: structure, te
 - ⚙️ [9. Position, Transform, Hover & Transition Properties/task16.html](9.%20Position,%20Transform,%20Hover%20%26%20Transition%20Properties/task16.html) — `task16.html`
 - ⚙️ [9. Position, Transform, Hover & Transition Properties/task17.html](9.%20Position,%20Transform,%20Hover%20%26%20Transition%20Properties/task17.html) — `task17.html`
 - 🌿 [10. Flex Properties/task18.html](10.%20Flex%20Properties/task18.html) — `task18.html`
+- 📁 [Basic Level Practical - 1/Task 1/index.html](Basic%20Level%20Practical%20-%201/Task%201/index.html) — `index.html`
+- 📁 [Basic Level Practical - 1/Task 1/style.css](Basic%20Level%20Practical%20-%201/Task%201/style.css) — `style.css`
+- 📁 [Basic Level Practical - 1/Task 2/index.html](Basic%20Level%20Practical%20-%201/Task%202/index.html) — `index.html`
+- 📁 [Basic Level Practical - 1/Task 3/index.html](Basic%20Level%20Practical%20-%201/Task%203/index.html) — `index.html`
 
 ## ▶️ How to Use
 
