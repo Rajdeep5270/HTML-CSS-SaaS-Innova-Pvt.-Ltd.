@@ -58,6 +58,13 @@ These small exercises cover the core building blocks of web pages: structure, te
 - 📁 [Basic Level Practical - 1/Task 1/style.css](Basic%20Level%20Practical%20-%201/Task%201/style.css) — `style.css`
 - 📁 [Basic Level Practical - 1/Task 2/index.html](Basic%20Level%20Practical%20-%201/Task%202/index.html) — `index.html`
 - 📁 [Basic Level Practical - 1/Task 3/index.html](Basic%20Level%20Practical%20-%201/Task%203/index.html) — `index.html`
+- 📁 [Basic Level Practical - 1/Task 4/index.html](Basic%20Level%20Practical%20-%201/Task%204/index.html) — `index.html`
+- 📁 [Basic Level Practical - 1/Task 4/style.css](Basic%20Level%20Practical%20-%201/Task%204/style.css) — `style.css`
+- 📁 [Basic Level Practical - 1/Task 5/index.html](Basic%20Level%20Practical%20-%201/Task%205/index.html) — `index.html`
+- 📁 [Basic Level Practical - 1/Task 5/style.css](Basic%20Level%20Practical%20-%201/Task%205/style.css) — `style.css`
+- 📁 [Basic Level Practical - 1/Task 6/index.html](Basic%20Level%20Practical%20-%201/Task%206/index.html) — `index.html`
+- 📁 [Basic Level Practical - 1/Task 6/style.css](Basic%20Level%20Practical%20-%201/Task%206/style.css) — `style.css`
+- 📁 [Basic Level Practical - 1/Task 7/index.html](Basic%20Level%20Practical%20-%201/Task%207/index.html) — `index.html`
 
 ## ▶️ How to Use
 
