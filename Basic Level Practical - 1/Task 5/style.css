@@ -1,0 +1,110 @@
+:root {
+    --background-color: #030712;
+    --nav-text-color: #9ca3af;
+    --text-color: #FFFFFF;
+    --tag-bg-color: #5e3f1e4d;
+    --tag-color: #ebc183;
+    --button-bg-color: #A87A2A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.jsutify-evenly {
+    justify-content: space-evenly;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* header section  */
+
+.navbar {
+    background-color: var(--background-color);
+    padding: 30px;
+}
+
+.navbar h2 {
+    color: var(--text-color);
+}
+
+.navbar nav ul li a {
+    margin: 0 15px;
+    /* padding: 10px 20px; */
+    color: var(--nav-text-color);
+}
+
+.navbar nav ul li a:hover {
+    color: var(--text-color);
+}
+
+.navbar .navbar-content .CTA button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: var(--text-color);
+    background-color: var(--button-bg-color);
+    margin: 0 5px;
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid var(--primary-color);
+}
+
+.navbar .navbar-content .CTA button:hover {
+    background-color: var(--tag-color);
+    color: var(--background-color);
+}
