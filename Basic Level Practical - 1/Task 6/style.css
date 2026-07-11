@@ -1,0 +1,168 @@
+:root {
+    --background-color: #030712;
+    --nav-text-color: #9ca3af;
+    --text-color: #FFFFFF;
+    --tag-bg-color: #5e3f1e4d;
+    --tag-color: #ebc183;
+    --button-bg-color: #A87A2A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.jsutify-evenly {
+    justify-content: space-evenly;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* header section  */
+
+.navbar {
+    background-color: var(--background-color);
+    padding: 30px;
+}
+
+.navbar h2 {
+    color: var(--text-color);
+}
+
+.navbar nav ul li a {
+    margin: 0 15px;
+    /* padding: 10px 20px; */
+    color: var(--nav-text-color);
+}
+
+.navbar nav ul li a:hover {
+    color: var(--text-color);
+}
+
+.navbar .CTA button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    color: var(--text-color);
+    background-color: var(--button-bg-color);
+    margin: 0 5px;
+    font-weight: 700;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid var(--primary-color);
+}
+
+/* banner section  */
+
+.banner {
+    background: url(https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1920&h=1080&fit=crop&q=80);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 850px;
+}
+
+.banner .banner-content {
+    top: 50%;
+    color: var(--text-color);
+    transform: translate(0, -50%);
+}
+
+.banner .banner-content span {
+    padding: 10px 20px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    font-weight: bold;
+    border: 1px solid var(--nav-text-color);
+}
+
+.banner .banner-content h2 {
+    font-size: 70px;
+    width: 60%;
+    margin: 20px 0;
+}
+
+.banner .banner-content p {
+    font-size: 22px;
+    width: 40%;
+    line-height: 1.5;
+    margin: 0 0 15px 0;
+}
+
+.banner .banner-content .banner-content-list ul li {
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--nav-text-color);
+}
+
+.banner .banner-content .banner-content-list ul .first {
+    background-color: var(--text-color);
+    color: black;
+}
+
+.banner .banner-content .banner-buttons a {
+    margin: 20px 10px;
+    padding: 15px 35px;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    border: 1px solid var(--nav-text-color);
+}
+
+.banner .banner-content .banner-buttons .portfolio-btn {
+    background-color: var(--button-bg-color);
+    border: none;
+}
