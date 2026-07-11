@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox Layout</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <style>
+        /* default css properties  */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: "Exo 2", sans-serif;
+        }
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        /* header section css  */
+        header {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            padding: 30px 0;
+            background-color: #0A192F;
+            color: white;
+        }
+
+        nav ul {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 0px 20px;
+        }
+
+        nav ul li a {
+            color: white;
+            padding: 10px 20px;
+            transition: background-color 0.3s, color 0.3s;
+            border-radius: 10px;
+        }
+
+        nav ul li a:hover {
+            background-color: white;
+            color: #0A192F;
+        }
+
+        /* testimonial section css  */
+        .testimonial .testimonial-title {
+            text-align: center;
+            margin: 50px 0;
+        }
+
+        .testimonial .testimonial-title h2 {
+            font-size: 50px;
+            margin: 20px 0;
+        }
+
+        .testimonial .testimonial-content {
+            margin: 100px 0 0 0;
+        }
+
+        .testimonial .testimonial-content .testimonial-card {
+            height: 300px;
+            width: 300px;
+        }
+
+        .testimonial .testimonial-content .testimonial-card img {
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+        }
+
+        .testimonial .testimonial-content .testimonial-card h4 {
+            margin: 20px 0;
+        }
+
+        .testimonial .testimonial-content .testimonial-card p {
+            line-height: 1.3;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h2>Petal</h2>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- testimonial section  -->
+        <section class="testimonial">
+            <div class="testimonial-title">
+                <span>OUR CUSTOMERS</span>
+                <h2>Hear From Petal Members.</h2>
+                <p>Real Stories of what it means to #paywithPetal.</p>
+            </div>
+
+            <div class="testimonial-content">
+                <div class="row" style="justify-content: space-around; text-align: center;">
+                    <div class="testimonial-card">
+                        <img src="https://preview.colorlib.com/theme/bootstrap/carousel-16/images/person_2_sm.jpg"
+                            alt="Kellie Kenney">
+                        <h4>Kellie Kenney</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium corrupti porro iusto at
+                            error. Corporis commodi rerum reiciendis pariatur reprehenderit nobis vero in quam suscipit!
+                        </p>
+                    </div>
+                    <div class="testimonial-card">
+                        <img src="https://preview.colorlib.com/theme/bootstrap/carousel-16/images/person_3_sm.jpg"
+                            alt="Will Regan">
+                        <h4>Will Regan</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium corrupti porro iusto at
+                            error. Corporis commodi rerum reiciendis pariatur reprehenderit nobis vero in quam suscipit!
+                        </p>
+                    </div>
+                    <div class="testimonial-card">
+                        <img src="https://preview.colorlib.com/theme/bootstrap/carousel-16/images/person_1_sm.jpg"
+                            alt="Joshua Jones">
+                        <h4>Joshua Jones</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium corrupti porro iusto at
+                            error. Corporis commodi rerum reiciendis pariatur reprehenderit nobis vero in quam suscipit!
+                        </p>
+                    </div>
+                    <div class="testimonial-card">
+                        <img src="https://preview.colorlib.com/theme/bootstrap/carousel-16/images/person_3_sm.jpg"
+                            alt="Devin Bridges">
+                        <h4>Devin Bridges</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium corrupti porro iusto at
+                            error. Corporis commodi rerum reiciendis pariatur reprehenderit nobis vero in quam suscipit!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
