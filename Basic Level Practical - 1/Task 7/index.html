@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create a Card Component</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #F5FBFF;
+        }
+
+        a {
+            display: inline-block;
+            text-decoration: none;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        img {
+            display: block;
+            max-width: 100%;
+        }
+
+        .container {
+            max-width: 1140px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+
+        /* profile section  */
+
+        .profile {
+            padding: 100px 0;
+        }
+
+        .profile .profile-title {
+            margin: 30px 0;
+        }
+
+        .profile .profile-title h2 {
+            font-size: 50px;
+            margin: 20px 0;
+        }
+
+        .profile .profile-title p {
+            width: 50%;
+            line-height: 1.5;
+            text-align: center;
+            color: gray;
+        }
+
+        .profile .profile-content {
+            box-shadow: 1px 1px 10px 1px gray;
+            overflow: hidden;
+            border-radius: 10px;
+            margin: 20px;
+        }
+
+        .profile .profile-content img {
+            transition: all 0.2s ease-in-out;
+            overflow: hidden;
+            z-index: -1;
+        }
+
+        .profile .profile-content:hover img {
+            transform: scale(1.2);
+        }
+
+        .profile .profile-content .profile-info {
+            padding: 50px 30px;
+            background-color: #ffffff;
+        }
+
+        .profile .profile-content .profile-info h2 {
+            font-size: 25px;
+        }
+
+        .profile .profile-content .profile-info p {
+            font-size: 19px;
+            margin: 10px 0;
+            color: gray;
+        }
+
+        .profile .profile-content .profile-info button {
+            border: none;
+            background-color: transparent;
+            font-size: 16px;
+            font-weight: 500;
+            padding: 10px 20px;
+            background-color: lightblue;
+            border-radius: 10px;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .profile .profile-content .profile-info button:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <!-- profile section  -->
+        <section class="profile">
+            <div class="container">
+                <div class="profile-title"
+                    style="display: flex; justify-content: center; align-items: center; flex-direction: column;;">
+                    <h2>Our Departments</h2>
+                    <p>Esteem spirit temper too say adieus who direct esteem.
+                        It esteems luckily or picture placing drawing.</p>
+                </div>
+                <div style="display: flex; flex-wrap: wrap;">
+                    <div class="profile-content" style="display: flex; flex-direction: column;">
+                        <img src="https://preview.colorlib.com/theme/docmed/img/department/1.webp" alt="">
+                        <div class="profile-info">
+                            <h2>Eye Care</h2>
+                            <p>Esteem spirit temper too say adieus who direct esteem.</p>
+                            <button>Learn More</button>
+                        </div>
+                    </div>
+
+                    <div class="profile-content" style="display: flex; flex-direction: column;">
+                        <img src="https://preview.colorlib.com/theme/docmed/img/department/2.webp" alt="">
+                        <div class="profile-info">
+                            <h2>Physical Therapy</h2>
+                            <p>Esteem spirit temper too say adieus who direct esteem.</p>
+                            <button>Learn More</button>
+                        </div>
+                    </div>
+
+                    <div class="profile-content" style="display: flex; flex-direction: column;">
+                        <img src="https://preview.colorlib.com/theme/docmed/img/department/3.webp" alt="">
+                        <div class="profile-info">
+                            <h2>Dental Care</h2>
+                            <p>Esteem spirit temper too say adieus who direct esteem.</p>
+                            <button>Learn More</button>
+                        </div>
+                    </div>
+
+                    <div class="profile-content" style="display: flex; flex-direction: column;">
+                        <img src="https://preview.colorlib.com/theme/docmed/img/department/4.webp" alt="">
+                        <div class="profile-info">
+                            <h2>Diagnostic Test</h2>
+                            <p>Esteem spirit temper too say adieus who direct esteem.</p>
+                            <button>Learn More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
