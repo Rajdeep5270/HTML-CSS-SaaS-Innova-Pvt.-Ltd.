@@ -1,0 +1,251 @@
+:root {
+    --background-color: #FFFDF2;
+    --text-color: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    font-family: "Cormorant Garamond", serif;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Black Ops One", system-ui;
+}
+
+.py {
+    padding: 100px 0;
+}
+
+.w-1 {
+    width: 100%;
+}
+
+.w-2 {
+    width: 50%;
+}
+
+.w-3 {
+    width: 33.33%;
+}
+
+/* title of all sections  */
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h2 {
+    font-size: 50px;
+    margin-bottom: 50px;
+    border-bottom: 2px solid var(--text-color);
+}
+
+/* navbar section  */
+
+.navbar {
+    padding: 20px 0;
+}
+
+.navbar .navbar-content nav ul li a {
+    margin: 0 10px;
+    font-weight: 600;
+}
+
+/* about section  */
+
+.about .about-content {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about .about-content p {
+    margin: 20px;
+}
+
+.about .about-content button {
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    border: 1px solid transparent;
+}
+
+.about .about-content button:hover {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+}
+
+/* skills section  */
+
+.skills .skills-content table {
+    margin: 20px 0 0 0;
+    border: 2px solid black;
+}
+
+.skills .skills-content table thead tr th,
+.skills .skills-content table tbody tr td {
+    padding: 5px 20px;
+    border: 2px dotted gray;
+}
+
+/* projects section  */
+
+.projects .projects-content {
+    border-radius: 10px;
+}
+
+.projects .projects-content {
+    margin: 0 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.projects .projects-content:hover {
+    box-shadow: 5px 5px 10px 0px gray;
+    transform: scale(1.02);
+}
+
+.projects .projects-content .projects-content-text {
+    padding: 20px;
+}
+
+.projects .projects-content .projects-content-text p {
+    margin: 10px 0;
+    line-height: 1.2;
+}
+
+.projects .projects-content .projects-content-text a {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: 1px solid var(--text-color);
+    transition: all 0.3s ease-in-out;
+}
+
+.projects .projects-content .projects-content-text a:hover {
+    background-color: var(--text-color);
+    color: var(--background-color);
+}
+
+/* contact section  */
+
+.contact-content {
+    width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .15);
+}
+
+.contact-info {
+    margin-bottom: 18px;
+}
+
+.contact-info p {
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #444;
+}
+
+.contact-info input,
+.contact-info select,
+.contact-info textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    outline: none;
+    transition: .3s;
+}
+
+.contact-info input:focus,
+.contact-info select:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 5px rgba(40, 167, 69, .3);
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.submit-btn:hover {
+    background: #218838;
+}
+
+/* footer section  */
+
+.footer p {
+    font-size: 18px;
+    padding: 10px 0;
+    background-color: var(--text-color);
+    color: var(--background-color);
+}
