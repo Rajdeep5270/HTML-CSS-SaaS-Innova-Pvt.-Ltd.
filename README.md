@@ -65,6 +65,14 @@ These small exercises cover the core building blocks of web pages: structure, te
 - 📁 [Basic Level Practical - 1/Task 6/index.html](Basic%20Level%20Practical%20-%201/Task%206/index.html) — `index.html`
 - 📁 [Basic Level Practical - 1/Task 6/style.css](Basic%20Level%20Practical%20-%201/Task%206/style.css) — `style.css`
 - 📁 [Basic Level Practical - 1/Task 7/index.html](Basic%20Level%20Practical%20-%201/Task%207/index.html) — `index.html`
+- 📁 [Basic Level Practical - 1/Task 8/index.html](Basic%20Level%20Practical%20-%201/Task%208/index.html) — `index.html`
+- 📁 [Basic Level Practical - 1/Task 9/index.html](Basic%20Level%20Practical%20-%201/Task%209/index.html) — `index.html`
+- 📁 [Basic Level Practical - 1/Task 9/style.css](Basic%20Level%20Practical%20-%201/Task%209/style.css) — `style.css`
+- 📁 [Basic Level Practical - 1/Task 10/index.html](Basic%20Level%20Practical%20-%201/Task%2010/index.html) — `index.html`
+- 🧩 [Practical Task/Personal Portfolio Website/index.html](Practical%20Task/Personal%20Portfolio%20Website/index.html) — `index.html`
+- 🧩 [Practical Task/Personal Portfolio Website/style.css](Practical%20Task/Personal%20Portfolio%20Website/style.css) — `style.css`
+- 🧩 [Practical Task/Personal Portfolio Website/media-query.css](Practical%20Task/Personal%20Portfolio%20Website/media-query.css) — `media-query.css`
+- 🧩 [Practical Task/Registration Form With HTML Validiation/index.html](Practical%20Task/Registration%20Form%20With%20HTML%20Validiation/index.html) — `index.html`
 
 ## ▶️ How to Use
 
