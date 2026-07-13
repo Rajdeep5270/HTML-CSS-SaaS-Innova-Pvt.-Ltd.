@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Animations</title>
+
+    <style>
+        .div1 {
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            position: relative;
+            animation: box1 3s infinite;
+        }
+
+        .div2 {
+            margin: 20px 0;
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            position: relative;
+            animation: box2 1s infinite;
+        }
+
+        .div3 {
+            margin: 20px 0;
+            height: 100px;
+            width: 100px;
+            background-color: purple;
+            position: relative;
+            animation: box3 10s infinite;
+        }
+
+        @keyframes box1 {
+            from {
+                top: 0px;
+            }
+
+            to {
+                top: 100px;
+            }
+        }
+
+        @keyframes box2 {
+            from {
+                left: 0px;
+            }
+
+            to {
+                background-color: aquamarine;
+                left: 200px
+            }
+        }
+
+        @keyframes box3 {
+            0% {
+                top: 0px;
+                background-color: chocolate !important;
+            }
+
+            25% {
+                top: 100px;
+                background-color: yellow;
+            }
+
+            50% {
+                left: 100px;
+                background-color: chartreuse;
+            }
+
+            75% {
+                top: 0px
+            }
+
+            100% {
+                left: 0px
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h2>CSS Animations</h2>
+        <section class="animation">
+            <div class="div1"></div>
+            <div class="div2"></div>
+            <div class="div3"></div>
+        </section>
+    </main>
+</body>
+
+</html>
