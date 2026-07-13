@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form With Valiadiation</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: #f3f5f8;
+        }
+
+        main {
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .user-form {
+            width: 100%;
+            max-width: 400px;
+            background: #fff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, .15);
+        }
+
+        .user-form h2 {
+            text-align: center;
+            color: #28a745;
+            margin-bottom: 20px;
+        }
+
+        .user-form-content {
+            margin-bottom: 18px;
+        }
+
+        .user-form-content p {
+            margin-bottom: 6px;
+            font-weight: 600;
+            color: #444;
+        }
+
+        .user-form-content input,
+        .user-form-content select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 15px;
+            outline: none;
+            transition: .3s;
+        }
+
+        .user-form-content input:focus,
+        .user-form-content select:focus {
+            border-color: #28a745;
+            box-shadow: 0 0 5px rgba(40, 167, 69, .3);
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 12px;
+            background: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: .3s;
+        }
+
+        .submit-btn:hover {
+            background: #218838;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <main>
+
+        <!-- user form section  -->
+        <section class="user-form">
+
+            <h2>Registration Form</h2>
+
+            <form>
+
+                <div class="user-form-content">
+                    <p>Name</p>
+                    <input type="text" name="name" placeholder="Enter your name" minlength="3" autofocus required>
+                </div>
+
+                <div class="user-form-content">
+                    <p>Email</p>
+                    <input type="email" name="email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="user-form-content">
+                    <p>Password</p>
+                    <input type="password" name="password" placeholder="Enter your password" pattern="[A-Za-z]{3}"
+                        required>
+                </div>
+
+                <div class="user-form-content">
+                    <p>Phone</p>
+                    <input type="tel" name="phone" placeholder="Enter your phone number" required>
+                </div>
+
+                <div class="user-form-content">
+                    <p>Address</p>
+                    <input type="text" name="address" placeholder="Enter your address" required>
+                </div>
+
+                <div class="user-form-content">
+                    <p>Country</p>
+                    <select name="country" required>
+                        <option selected disabled>Select Country</option>
+                        <option value="india">India</option>
+                        <option value="japan">Japan</option>
+                        <option value="korea">Korea</option>
+                        <option value="indonesia">Indonesia</option>
+                    </select>
+                </div>
+
+                <input type="submit" value="Submit" class="submit-btn">
+
+            </form>
+
+        </section>
+
+    </main>
+
+</body>
+
+</html>
