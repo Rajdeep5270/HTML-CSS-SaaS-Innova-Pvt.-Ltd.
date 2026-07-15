@@ -1,0 +1,75 @@
+/* xl */
+
+@media (max-width:1399px) {
+
+    .container {
+        max-width: 1140px;
+    }
+
+}
+
+/* lg */
+
+@media (max-width:1199px) {
+
+    .container {
+        max-width: 960px;
+    }
+
+}
+
+/* md */
+
+@media (max-width:991px) {
+
+    .container {
+        max-width: 720px;
+    }
+
+    .navbar-content {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    .dropdown-menu {
+        position: static;
+        width: 100%;
+    }
+
+    .dropdown:hover .dropdown-menu {
+        display: block;
+    }
+
+}
+
+/* sm */
+
+@media (max-width:767px) {
+
+    .container {
+        max-width: 540px;
+    }
+
+}
+
+/* xs */
+
+@media (max-width:575px) {
+
+    .container {
+        max-width: 100%;
+    }
+
+    .hero-content h1 {
+        font-size: 28px;
+    }
+
+}
