@@ -73,7 +73,21 @@ These small exercises cover the core building blocks of web pages: structure, te
 - 🧩 [Practical Task/Personal Portfolio Website/style.css](Practical%20Task/Personal%20Portfolio%20Website/style.css) — `style.css`
 - 🧩 [Practical Task/Personal Portfolio Website/media-query.css](Practical%20Task/Personal%20Portfolio%20Website/media-query.css) — `media-query.css`
 - 🧩 [Practical Task/Registration Form With HTML Validiation/index.html](Practical%20Task/Registration%20Form%20With%20HTML%20Validiation/index.html) — `index.html`
+ 
+- 🧩 [Practical Task/Interactive Navigation Bar/index.html](Practical%20Task/Interactive%20Navigation%20Bar/index.html) — `index.html`
+- 🧩 [Practical Task/Interactive Navigation Bar/style.css](Practical%20Task/Interactive%20Navigation%20Bar/style.css) — `style.css`
+- 🧩 [Practical Task/Interactive Navigation Bar/media-query.css](Practical%20Task/Interactive%20Navigation%20Bar/media-query.css) — `media-query.css`
 
+- 🧩 [Practical Task/Multiple Section Blog/index.html](Practical%20Task/Multiple%20Section%20Blog/index.html) — `index.html`
+- 🧩 [Practical Task/Multiple Section Blog/style.css](Practical%20Task/Multiple%20Section%20Blog/style.css) — `style.css`
+- 🧩 [Practical Task/Multiple Section Blog/media-query.css](Practical%20Task/Multiple%20Section%20Blog/media-query.css) — `media-query.css`
+
+- 🧩 [Practical Task/Product Listing Table/index.html](Practical%20Task/Product%20Listing%20Table/index.html) — `index.html`
+- 🧩 [Practical Task/Product Listing Table/style.css](Practical%20Task/Product%20Listing%20Table/style.css) — `style.css`
+- 🧩 [Practical Task/Product Listing Table/media-query.css](Practical%20Task/Product%20Listing%20Table/media-query.css) — `media-query.css`
+
+- 🧩 [Practical Task/Responsive Photo Gallery/index.html](Practical%20Task/Responsive%20Photo%20Gallery/index.html) — `index.html`
+- 🧩 [Practical Task/Responsive Photo Gallery/style.css](Practical%20Task/Responsive%20Photo%20Gallery/style.css) — `style.css`
 ## ▶️ How to Use
 
 1. Open any `task*.html` file in your browser to view the page. 🌐
